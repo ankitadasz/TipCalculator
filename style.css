@@ -6,8 +6,10 @@
 body{
     width: 100%;
     height: 100%;
+    background-color: #F2F2F2;
     overflow: hidden;
     font-family: "Roboto", sans-serif;
+    color: #000000;
 }
 .box{
     display: flex;
@@ -18,6 +20,7 @@ body{
     padding: 50px;
     border:2px solid black ;
     margin: 20vh 75vh;
+    background-color: #EAE4D5;
 }
 .sub{
     display: flex;
@@ -25,4 +28,12 @@ body{
     justify-content: flex-start;
     margin-top: 40px;
     gap: 10px;
+}
+input,button{
+    background-color: #B6B09F;
+    border: none;
+    outline: none;
+    font-size: larger;
+    font-weight: bold;
+    padding: 8px;
 }
