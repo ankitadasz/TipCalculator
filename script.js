@@ -9,10 +9,10 @@ function tipCalci(){
     let tipVal=parseFloat(tip.value);
     let result=billVal+(tipVal/100)*billVal;
     if (isNaN(billVal) || isNaN(tipVal)){
-        output.innerText=`Total:Enter a valid amount`;
+        output.innerText=`Total:-Enter a valid amount`;
     }
     else{
-        output.innerText=`Total:${result.toFixed(2)}`;
+        output.innerText=`Total:-${result.toFixed(2)}`;
     }
     
 }
