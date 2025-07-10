@@ -8,6 +8,12 @@ function tipCalci(){
     let billVal=parseFloat(bill.value);
     let tipVal=parseFloat(tip.value);
     let result=billVal+(tipVal/100)*billVal;
-    output.innerText=`Total:${result.toFixed(2)}`;
+    if (isNaN(billVal) || isNaN(tipVal)){
+        output.innerText=`Total:Enter a valid amount`;
+    }
+    else{
+        output.innerText=`Total:${result.toFixed(2)}`;
+    }
+    
 }
 calculate.addEventListener("click",tipCalci);
