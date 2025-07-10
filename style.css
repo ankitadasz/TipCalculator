@@ -13,7 +13,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
+    width: 600px;
+    height: 500px;
+    padding: 50px;
     border:2px solid black ;
     margin: 20vh 75vh;
 }
