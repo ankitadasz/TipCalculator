@@ -18,7 +18,7 @@ body{
     width: 600px;
     height: 500px;
     padding: 50px;
-    border:2px solid black ;
+    border:2px solid rgb(187, 184, 184) ;
     margin: 20vh 75vh;
     background-color: #EAE4D5;
 }
@@ -36,4 +36,6 @@ input,button{
     font-size: larger;
     font-weight: bold;
     padding: 8px;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
